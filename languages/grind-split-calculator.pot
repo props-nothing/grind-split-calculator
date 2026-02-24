@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Grind & Split Calculator 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-24 00:00+0000\n"
+"Language: \n"
+"X-Domain: grind-split-calculator\n"
+
+msgid "Grind Calculator"
+msgstr ""
+
+msgid "Instellingen"
+msgstr ""
+
+msgid "Standaard laagdikte (cm)"
+msgstr ""
+
+msgid "Categorie-ID's voor wizard"
+msgstr ""
+
+msgid "Beschikbare attribuutwaarden (referentie)"
+msgstr ""
+
+msgid "Voer categorie-ID's in, gescheiden door komma's."
+msgstr ""
+
+msgid "Deze lijst is alleen ter referentie en wordt live uit WooCommerce attributen gelezen. De plugin hardcodeert geen productwaarden."
+msgstr ""
+
+msgid "pa_formaat"
+msgstr ""
+
+msgid "pa_hoeveelheid"
+msgstr ""
+
+msgid "Geen waarden gevonden."
+msgstr ""
+
+msgid "Grind & Split Calculator"
+msgstr ""
+
+msgid "Attribuutwaarden worden altijd live uit WooCommerce productattributen gelezen en niet hardcoded opgeslagen in deze plugin."
+msgstr ""
+
+msgid "Geen geldige variatie gevonden."
+msgstr ""
+
+msgid "Ongeldige beveiligingstoken."
+msgstr ""
+
+msgid "Deze calculator werkt alleen op variabele WooCommerce producten met formaat en hoeveelheid attributen."
+msgstr ""
+
+msgid "Formaat"
+msgstr ""
+
+msgid "Hoeveelheid"
+msgstr ""
+
+msgid "Aantal vierkante meter (m²)"
+msgstr ""
+
+msgid "Laagdikte (cm)"
+msgstr ""
+
+msgid "Kubieke meter benodigd:"
+msgstr ""
+
+msgid "Aantal bigbags:"
+msgstr ""
+
+msgid "Indicatief gewicht:"
+msgstr ""
+
+msgid "De berekening is gebaseerd op een laagdikte van 5 cm. Pas dit aan naar uw situatie."
+msgstr ""
+
+msgid "Voeg toe aan winkelwagen"
+msgstr ""
+
+msgid "Stap 1"
+msgstr ""
+
+msgid "Stap 2"
+msgstr ""
+
+msgid "Stap 3"
+msgstr ""
+
+msgid "Stap 4"
+msgstr ""
+
+msgid "Stap 1 – Kies een categorie"
+msgstr ""
+
+msgid "Stap 2 – Kies een product"
+msgstr ""
+
+msgid "Stap 3 – Kies formaat"
+msgstr ""
+
+msgid "Stap 4 – Hoeveelheid & berekening"
+msgstr ""
+
+msgid "Terug"
+msgstr ""
+
+msgid "Selecteer eerst formaat en hoeveelheid."
+msgstr ""
+
+msgid "Vul een geldig aantal m² in."
+msgstr ""
+
+msgid "Deze combinatie is niet beschikbaar."
+msgstr ""
+
+msgid "De berekening is gebaseerd op een laagdikte van %s cm. Pas dit aan naar uw situatie."
+msgstr ""
+
+msgid "Voeg %1$s %2$s toe aan winkelwagen"
+msgstr ""
+
+msgid "zakken"
+msgstr ""
+
+msgid "Geen categorieën gevonden. Controleer de plugininstellingen."
+msgstr ""
+
+msgid "Geen formaten gevonden voor dit product."
+msgstr ""
+
+msgid "Geen hoeveelheden gevonden voor dit formaat."
+msgstr ""
+
+msgid "Geen categorieën gevonden."
+msgstr ""
+
+msgid "Selecteer eerst een categorie."
+msgstr ""
+
+msgid "Geen variabele producten gevonden in deze categorie."
+msgstr ""
