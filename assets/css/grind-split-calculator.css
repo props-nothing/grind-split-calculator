@@ -52,7 +52,7 @@
 .gsc-wizard h3,
 .gsc-calculator h3 {
   margin: 0 0 2rem;
-  font-size: 1.75rem;
+  font-size: 1.4rem !important;
   font-weight: 800;
   color: var(--gsc-text-main);
   letter-spacing: -0.025em;
@@ -490,7 +490,7 @@
   .gsc-calculator,
   .gsc-wizard {
     padding: 1.5rem;
-    margin: 1rem;
+    margin: 0 auto;
     border-radius: var(--gsc-radius-md);
   }
 
@@ -512,7 +512,7 @@
   }
 
   .gsc-actions {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .gsc-actions button {
