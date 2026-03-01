@@ -133,7 +133,6 @@
   async function postAjax(action, payload) {
     const body = new URLSearchParams();
     body.append("action", action);
-    body.append("nonce", gscData.nonce);
     Object.keys(payload).forEach((key) => {
       body.append(key, payload[key]);
     });

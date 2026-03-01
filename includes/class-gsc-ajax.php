@@ -42,8 +42,6 @@ class GSC_Ajax {
 	 * @return void
 	 */
 	public function get_formats() {
-		$this->verify_nonce();
-
 		$product_id = isset( $_POST['product_id'] ) ? absint( $_POST['product_id'] ) : 0;
 		$formats    = $this->product_service->get_formats( $product_id );
 
@@ -61,8 +59,6 @@ class GSC_Ajax {
 	 * @return void
 	 */
 	public function get_quantities() {
-		$this->verify_nonce();
-
 		$product_id = isset( $_POST['product_id'] ) ? absint( $_POST['product_id'] ) : 0;
 		$format     = isset( $_POST['format'] ) ? sanitize_text_field( wp_unslash( $_POST['format'] ) ) : '';
 		$quantities = $this->product_service->get_quantities_by_format( $product_id, $format );
@@ -81,8 +77,6 @@ class GSC_Ajax {
 	 * @return void
 	 */
 	public function get_variation_id() {
-		$this->verify_nonce();
-
 		$product_id = isset( $_POST['product_id'] ) ? absint( $_POST['product_id'] ) : 0;
 		$format     = isset( $_POST['format'] ) ? sanitize_text_field( wp_unslash( $_POST['format'] ) ) : '';
 		$quantity   = isset( $_POST['quantity'] ) ? sanitize_text_field( wp_unslash( $_POST['quantity'] ) ) : '';
@@ -103,22 +97,5 @@ class GSC_Ajax {
 				'variation_id' => $variation_id,
 			)
 		);
-	}
-
-	/**
-	 * Verify nonce.
-	 *
-	 * @return void
-	 */
-	private function verify_nonce() {
-		$valid = check_ajax_referer( 'gsc_nonce', 'nonce', false );
-		if ( ! $valid ) {
-			wp_send_json_error(
-				array(
-					'message' => __( 'Ongeldige beveiligingstoken.', 'grind-split-calculator' ),
-				),
-				403
-			);
-		}
 	}
 }

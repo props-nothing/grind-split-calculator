@@ -58,7 +58,6 @@ class GSC_Shortcodes {
 			'gscData',
 			array(
 				'ajaxUrl'           => admin_url( 'admin-ajax.php' ),
-				'nonce'             => wp_create_nonce( 'gsc_nonce' ),
 				'cartUrl'           => wc_get_cart_url(),
 				'attributeFormaat'  => GSC_Product_Service::ATTR_FORMAAT,
 				'attributeQty'      => GSC_Product_Service::ATTR_HOEVEELHEID,
